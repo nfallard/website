@@ -1,0 +1,27 @@
+site_name: Nicole Allard, Observatoire de Paris
+site_url: https://nfallard.github.io/website/
+
+copyright: "Copyright © 2014-2024<br /><b>Nicole Allard</b>, Astronome<br /><a href='https://obspm.fr'>Observatoire de Paris</a><br />61, Avenue de l'Observatoire 75014 Paris<br />Téléphone : +33 1 45 43 35 74<br />Fax : +33 1 40 51 22 32<br />Email : nicole . allard à obspm . fr"
+
+theme:
+  name: material
+  fonts: false
+  icon:
+    logo: material/earth
+  features:
+    - navigation.expand
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - toc.follow
+    - toc.integrate
+
+markdown_extensions:
+  - admonition
+  - attr_list
+
+nav:
+  - "Nicole Allard": index.md
+  - "Liste des publications 2014-*": https://ui.adsabs.harvard.edu/search/q=author%3A(%22allard%2C%20n%22)%20AND%20pubdate%3A%5B2014%20TO%20*%5D&sort=date%20desc%2C%20bibcode%20desc&p_=0
+  - "Liste complète des publications": https://ui.adsabs.harvard.edu/search/q=author%3A(%22allard%2C%20n%22)%20AND%20pubdate%3A%5B1969-01%20TO%20*%5D&sort=citation_count%20desc%2C%20bibcode%20desc&p_=0
+  - "Alkali, Earthy Alkaline & Lyman tables": tables.md
